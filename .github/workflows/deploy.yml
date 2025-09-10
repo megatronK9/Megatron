@@ -2,7 +2,7 @@ name: Deploy Megatron K9
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]  # ← change this from master to main
 
 jobs:
   deploy:

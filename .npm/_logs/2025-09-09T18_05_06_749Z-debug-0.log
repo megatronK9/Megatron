@@ -1,0 +1,134 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm update @whiskeysockets/baileys
+7 verbose argv "update" "@whiskeysockets/baileys"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-09T18_05_06_749Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-09T18_05_06_749Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:828375040 maxSize:207093760 maxEntrySize:103546880
+12 silly idealTree buildDeps
+13 silly fetch manifest @whiskeysockets/baileys@^7.0.0-rc.2
+14 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 9839ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:168923 disposed:false
+17 silly fetch manifest audio-decode@^2.1.3
+18 silly packumentCache full:https://registry.npmjs.org/audio-decode cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/audio-decode 1522ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/audio-decode set size:68555 disposed:false
+21 silly fetch manifest jimp@^1.6.0
+22 silly packumentCache full:https://registry.npmjs.org/jimp cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/jimp 539ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/jimp set size:1192935 disposed:false
+25 silly fetch manifest link-preview-js@^3.0.0
+26 silly packumentCache full:https://registry.npmjs.org/link-preview-js cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/link-preview-js 559ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/link-preview-js set size:140735 disposed:false
+29 silly fetch manifest sharp@*
+30 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/sharp 529ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/sharp set size:972854 disposed:false
+33 silly placeDep ROOT @whiskeysockets/baileys@7.0.0-rc.2 KEEP for:  want: ^7.0.0-rc.2
+34 silly reify moves {}
+35 silly audit bulk request {
+35 silly audit   '@borewit/text-codec': [ '0.2.0', '0.1.1' ],
+35 silly audit   '@cacheable/node-cache': [ '1.7.0' ],
+35 silly audit   '@hapi/boom': [ '9.1.4' ],
+35 silly audit   '@hapi/hoek': [ '9.3.0' ],
+35 silly audit   '@keyv/serialize': [ '1.1.0' ],
+35 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+35 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+35 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+35 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+35 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+35 silly audit   '@protobufjs/float': [ '1.0.2' ],
+35 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+35 silly audit   '@protobufjs/path': [ '1.1.2' ],
+35 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+35 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+35 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+35 silly audit   '@tokenizer/token': [ '0.3.0' ],
+35 silly audit   '@types/long': [ '4.0.2' ],
+35 silly audit   '@types/node': [ '24.3.1', '10.17.60' ],
+35 silly audit   '@whiskeysockets/baileys': [ '7.0.0-rc.2' ],
+35 silly audit   'async-mutex': [ '0.5.0' ],
+35 silly audit   asynckit: [ '0.4.0' ],
+35 silly audit   'atomic-sleep': [ '1.0.0' ],
+35 silly audit   axios: [ '1.11.0' ],
+35 silly audit   cacheable: [ '1.10.4' ],
+35 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+35 silly audit   color: [ '4.2.3' ],
+35 silly audit   'color-convert': [ '2.0.1' ],
+35 silly audit   'color-name': [ '1.1.4' ],
+35 silly audit   'color-string': [ '1.9.1' ],
+35 silly audit   'combined-stream': [ '1.0.8' ],
+35 silly audit   'content-type': [ '1.0.5' ],
+35 silly audit   'curve25519-js': [ '0.0.4' ],
+35 silly audit   debug: [ '4.4.1' ],
+35 silly audit   'delayed-stream': [ '1.0.0' ],
+35 silly audit   'detect-libc': [ '2.0.4' ],
+35 silly audit   'dunder-proto': [ '1.0.1' ],
+35 silly audit   'es-define-property': [ '1.0.1' ],
+35 silly audit   'es-errors': [ '1.3.0' ],
+35 silly audit   'es-object-atoms': [ '1.1.1' ],
+35 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+35 silly audit   'fast-redact': [ '3.5.0' ],
+35 silly audit   fflate: [ '0.8.2' ],
+35 silly audit   'file-type': [ '21.0.0' ],
+35 silly audit   'follow-redirects': [ '1.15.11' ],
+35 silly audit   'form-data': [ '4.0.4' ],
+35 silly audit   'function-bind': [ '1.1.2' ],
+35 silly audit   'get-intrinsic': [ '1.3.0' ],
+35 silly audit   'get-proto': [ '1.0.1' ],
+35 silly audit   gopd: [ '1.2.0' ],
+35 silly audit   'has-symbols': [ '1.1.0' ],
+35 silly audit   'has-tostringtag': [ '1.0.2' ],
+35 silly audit   hasown: [ '2.0.2' ],
+35 silly audit   hookified: [ '1.12.0' ],
+35 silly audit   ieee754: [ '1.2.1' ],
+35 silly audit   'is-arrayish': [ '0.3.2' ],
+35 silly audit   keyv: [ '5.5.0' ],
+35 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+35 silly audit   long: [ '4.0.0', '5.3.2' ],
+35 silly audit   protobufjs: [ '6.8.8', '7.5.4' ],
+35 silly audit   'lru-cache': [ '11.2.1' ],
+35 silly audit   'math-intrinsics': [ '1.1.0' ],
+35 silly audit   'media-typer': [ '1.1.0' ],
+35 silly audit   'mime-db': [ '1.52.0' ],
+35 silly audit   'mime-types': [ '2.1.35' ],
+35 silly audit   ms: [ '2.1.3' ],
+35 silly audit   'music-metadata': [ '11.8.3' ],
+35 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+35 silly audit   pino: [ '9.9.4' ],
+35 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+35 silly audit   'pino-std-serializers': [ '7.0.0' ],
+35 silly audit   'process-warning': [ '5.0.0' ],
+35 silly audit   'proxy-from-env': [ '1.1.0' ],
+35 silly audit   'qrcode-terminal': [ '0.12.0' ],
+35 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+35 silly audit   'real-require': [ '0.2.0' ],
+35 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+35 silly audit   semver: [ '7.7.2' ],
+35 silly audit   sharp: [ '0.34.3' ],
+35 silly audit   'simple-swizzle': [ '0.2.2' ],
+35 silly audit   'sonic-boom': [ '4.2.0' ],
+35 silly audit   split2: [ '4.2.0' ],
+35 silly audit   strtok3: [ '10.3.4' ],
+35 silly audit   'thread-stream': [ '3.1.0' ],
+35 silly audit   'token-types': [ '6.1.1' ],
+35 silly audit   tslib: [ '2.8.1' ],
+35 silly audit   'uint8array-extras': [ '1.5.0' ],
+35 silly audit   'undici-types': [ '7.10.0' ],
+35 silly audit   ws: [ '8.18.3' ]
+35 silly audit }
+36 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 969ms
+37 silly audit report {}
+38 verbose cwd /data/data/com.termux/files/home
+39 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+40 verbose node v24.7.0
+41 verbose npm  v11.5.1
+42 verbose exit 0
+43 info ok

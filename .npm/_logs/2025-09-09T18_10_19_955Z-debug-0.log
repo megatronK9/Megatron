@@ -1,0 +1,283 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @whiskeysockets/baileys @hapi/boom qrcode-terminal
+7 verbose argv "install" "@whiskeysockets/baileys" "@hapi/boom" "qrcode-terminal"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-09T18_10_19_955Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-09T18_10_19_955Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:828375040 maxSize:207093760 maxEntrySize:103546880
+12 silly idealTree buildDeps
+13 silly fetch manifest @whiskeysockets/baileys@^7.0.0-rc.2
+14 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 8110ms (cache revalidated)
+16 silly packumentCache full:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:168923 disposed:false
+17 silly fetch manifest audio-decode@^2.1.3
+18 silly packumentCache full:https://registry.npmjs.org/audio-decode cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/audio-decode 387ms (cache revalidated)
+20 silly packumentCache full:https://registry.npmjs.org/audio-decode set size:68555 disposed:false
+21 silly fetch manifest jimp@^1.6.0
+22 silly packumentCache full:https://registry.npmjs.org/jimp cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/jimp 442ms (cache revalidated)
+24 silly packumentCache full:https://registry.npmjs.org/jimp set size:1192935 disposed:false
+25 silly fetch manifest link-preview-js@^3.0.0
+26 silly packumentCache full:https://registry.npmjs.org/link-preview-js cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/link-preview-js 472ms (cache revalidated)
+28 silly packumentCache full:https://registry.npmjs.org/link-preview-js set size:140735 disposed:false
+29 silly fetch manifest sharp@*
+30 silly packumentCache full:https://registry.npmjs.org/sharp cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/sharp 397ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/sharp set size:972854 disposed:false
+33 silly fetch manifest qrcode-terminal@^0.12.0
+34 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal cache-miss
+35 http cache https://registry.npmjs.org/qrcode-terminal 29ms (cache hit)
+36 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal set size:29799 disposed:false
+37 silly fetch manifest @hapi/boom@*
+38 silly packumentCache full:https://registry.npmjs.org/@hapi%2fboom cache-miss
+39 http cache https://registry.npmjs.org/@hapi%2fboom 33ms (cache hit)
+40 silly packumentCache full:https://registry.npmjs.org/@hapi%2fboom set size:55554 disposed:false
+41 silly placeDep ROOT @hapi/boom@10.0.1 REPLACE for:  want: *
+42 silly placeDep ROOT @whiskeysockets/baileys@7.0.0-rc.2 REPLACE for:  want: ^7.0.0-rc.2
+43 silly placeDep ROOT qrcode-terminal@0.12.0 REPLACE for:  want: ^0.12.0
+44 silly fetch manifest @hapi/hoek@^11.0.2
+45 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek cache-miss
+46 silly fetch manifest @hapi/boom@^9.1.3
+47 silly packumentCache full:https://registry.npmjs.org/@hapi%2fboom cache-hit
+48 http cache https://registry.npmjs.org/@hapi%2fhoek 51ms (cache hit)
+49 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek set size:121527 disposed:false
+50 silly placeDep ROOT @hapi/hoek@11.0.7 OK for: @hapi/boom@10.0.1 want: ^11.0.2
+51 silly placeDep node_modules/@whiskeysockets/baileys @hapi/boom@9.1.4 OK for: @whiskeysockets/baileys@7.0.0-rc.2 want: ^9.1.3
+52 silly fetch manifest @hapi/hoek@9.x.x
+53 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek cache-hit
+54 silly placeDep node_modules/@whiskeysockets/baileys @hapi/hoek@9.3.0 OK for: @hapi/boom@9.1.4 want: 9.x.x
+55 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@emnapi/runtime' ]
+56 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@hapi/boom' ]
+57 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@hapi/hoek' ]
+58 silly reify mark retired [
+58 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64'
+75 silly reify ]
+76 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@img/sharp-wasm32' ]
+77 silly reify mark retired [
+77 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64'
+79 silly reify ]
+80 silly reify moves {
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@emnapi/runtime': '/data/data/com.termux/files/home/node_modules/@emnapi/.runtime-9v0NP49i',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@hapi/boom': '/data/data/com.termux/files/home/node_modules/@hapi/.boom-ZeOHZnuL',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@hapi/hoek': '/data/data/com.termux/files/home/node_modules/@hapi/.hoek-TEzpnSiM',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-darwin-arm64-rWq0fpTA',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-darwin-x64-2XUsinp8',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-darwin-arm64-uFZansPD',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-darwin-x64-nwBDHdJ5',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-arm-TxLwqXy5',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-arm64-IkfLoGfo',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-ppc64-DwOKpobz',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-s390x-RY9ho3s0',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-x64-XKrJY0Sq',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linuxmusl-arm64-rpZdKVBg',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linuxmusl-x64-9KWBAeNj',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-arm-eulPFvqL',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-arm64-wDwy8X2a',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-ppc64-afLy41vU',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-s390x-rMPlO7MN',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-x64-yfqUuT1W',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linuxmusl-arm64-Gq8Oet5B',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linuxmusl-x64-CeF70V9D',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-wasm32': '/data/data/com.termux/files/home/node_modules/@img/.sharp-wasm32-sTSidBHU',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-arm64-E5cnarJI',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-ia32-GkUyWHMY',
+80 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-x64-hTangFep'
+80 silly reify }
+81 silly audit bulk request {
+81 silly audit   '@borewit/text-codec': [ '0.2.0', '0.1.1' ],
+81 silly audit   '@cacheable/node-cache': [ '1.7.0' ],
+81 silly audit   '@keyv/serialize': [ '1.1.0' ],
+81 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+81 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+81 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+81 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+81 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+81 silly audit   '@protobufjs/float': [ '1.0.2' ],
+81 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+81 silly audit   '@protobufjs/path': [ '1.1.2' ],
+81 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+81 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+81 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+81 silly audit   '@tokenizer/token': [ '0.3.0' ],
+81 silly audit   '@types/long': [ '4.0.2' ],
+81 silly audit   '@types/node': [ '24.3.1', '10.17.60' ],
+81 silly audit   'async-mutex': [ '0.5.0' ],
+81 silly audit   asynckit: [ '0.4.0' ],
+81 silly audit   'atomic-sleep': [ '1.0.0' ],
+81 silly audit   axios: [ '1.11.0' ],
+81 silly audit   cacheable: [ '1.10.4' ],
+81 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+81 silly audit   color: [ '4.2.3' ],
+81 silly audit   'color-convert': [ '2.0.1' ],
+81 silly audit   'color-name': [ '1.1.4' ],
+81 silly audit   'color-string': [ '1.9.1' ],
+81 silly audit   'combined-stream': [ '1.0.8' ],
+81 silly audit   'content-type': [ '1.0.5' ],
+81 silly audit   'curve25519-js': [ '0.0.4' ],
+81 silly audit   debug: [ '4.4.1' ],
+81 silly audit   'delayed-stream': [ '1.0.0' ],
+81 silly audit   'detect-libc': [ '2.0.4' ],
+81 silly audit   'dunder-proto': [ '1.0.1' ],
+81 silly audit   'es-define-property': [ '1.0.1' ],
+81 silly audit   'es-errors': [ '1.3.0' ],
+81 silly audit   'es-object-atoms': [ '1.1.1' ],
+81 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+81 silly audit   'fast-redact': [ '3.5.0' ],
+81 silly audit   fflate: [ '0.8.2' ],
+81 silly audit   'file-type': [ '21.0.0' ],
+81 silly audit   'follow-redirects': [ '1.15.11' ],
+81 silly audit   'form-data': [ '4.0.4' ],
+81 silly audit   'function-bind': [ '1.1.2' ],
+81 silly audit   'get-intrinsic': [ '1.3.0' ],
+81 silly audit   'get-proto': [ '1.0.1' ],
+81 silly audit   gopd: [ '1.2.0' ],
+81 silly audit   'has-symbols': [ '1.1.0' ],
+81 silly audit   'has-tostringtag': [ '1.0.2' ],
+81 silly audit   hasown: [ '2.0.2' ],
+81 silly audit   hookified: [ '1.12.0' ],
+81 silly audit   ieee754: [ '1.2.1' ],
+81 silly audit   'is-arrayish': [ '0.3.2' ],
+81 silly audit   keyv: [ '5.5.0' ],
+81 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+81 silly audit   long: [ '4.0.0', '5.3.2' ],
+81 silly audit   protobufjs: [ '6.8.8', '7.5.4' ],
+81 silly audit   'lru-cache': [ '11.2.1' ],
+81 silly audit   'math-intrinsics': [ '1.1.0' ],
+81 silly audit   'media-typer': [ '1.1.0' ],
+81 silly audit   'mime-db': [ '1.52.0' ],
+81 silly audit   'mime-types': [ '2.1.35' ],
+81 silly audit   ms: [ '2.1.3' ],
+81 silly audit   'music-metadata': [ '11.8.3' ],
+81 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+81 silly audit   pino: [ '9.9.4' ],
+81 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+81 silly audit   'pino-std-serializers': [ '7.0.0' ],
+81 silly audit   'process-warning': [ '5.0.0' ],
+81 silly audit   'proxy-from-env': [ '1.1.0' ],
+81 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+81 silly audit   'real-require': [ '0.2.0' ],
+81 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+81 silly audit   semver: [ '7.7.2' ],
+81 silly audit   sharp: [ '0.34.3' ],
+81 silly audit   'simple-swizzle': [ '0.2.2' ],
+81 silly audit   'sonic-boom': [ '4.2.0' ],
+81 silly audit   split2: [ '4.2.0' ],
+81 silly audit   strtok3: [ '10.3.4' ],
+81 silly audit   'thread-stream': [ '3.1.0' ],
+81 silly audit   'token-types': [ '6.1.1' ],
+81 silly audit   tslib: [ '2.8.1' ],
+81 silly audit   'uint8array-extras': [ '1.5.0' ],
+81 silly audit   'undici-types': [ '7.10.0' ],
+81 silly audit   ws: [ '8.18.3' ],
+81 silly audit   '@hapi/boom': [ '10.0.1', '9.1.4' ],
+81 silly audit   '@whiskeysockets/baileys': [ '7.0.0-rc.2' ],
+81 silly audit   'qrcode-terminal': [ '0.12.0' ],
+81 silly audit   '@hapi/hoek': [ '11.0.7', '9.3.0' ]
+81 silly audit }
+82 http cache @hapi/hoek@https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.7.tgz 0ms (cache hit)
+83 http cache @hapi/boom@https://registry.npmjs.org/@hapi/boom/-/boom-10.0.1.tgz 1ms (cache hit)
+84 http cache @hapi/hoek@https://registry.npmjs.org/@hapi/hoek/-/hoek-9.3.0.tgz 0ms (cache hit)
+85 http cache @hapi/boom@https://registry.npmjs.org/@hapi/boom/-/boom-9.1.4.tgz 0ms (cache hit)
+86 silly tarball no local data for @hapi/hoek@https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.7.tgz. Extracting by manifest.
+87 silly tarball no local data for @hapi/boom@https://registry.npmjs.org/@hapi/boom/-/boom-10.0.1.tgz. Extracting by manifest.
+88 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 2032ms
+89 silly audit report {}
+90 http fetch GET 200 https://registry.npmjs.org/@hapi/boom/-/boom-10.0.1.tgz 5759ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/@hapi/hoek/-/hoek-11.0.7.tgz 6693ms (cache miss)
+92 silly ADD node_modules/@whiskeysockets/baileys/node_modules/@hapi/hoek
+93 silly ADD node_modules/@whiskeysockets/baileys/node_modules/@hapi/boom
+94 silly REMOVE node_modules/@img/sharp-win32-x64
+95 silly REMOVE node_modules/@img/sharp-win32-ia32
+96 silly REMOVE node_modules/@img/sharp-win32-arm64
+97 silly REMOVE node_modules/@img/sharp-wasm32
+98 silly REMOVE node_modules/@img/sharp-linuxmusl-x64
+99 silly REMOVE node_modules/@img/sharp-linuxmusl-arm64
+100 silly REMOVE node_modules/@img/sharp-linux-x64
+101 silly REMOVE node_modules/@img/sharp-linux-s390x
+102 silly REMOVE node_modules/@img/sharp-linux-ppc64
+103 silly REMOVE node_modules/@img/sharp-linux-arm64
+104 silly REMOVE node_modules/@img/sharp-linux-arm
+105 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-x64
+106 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-arm64
+107 silly REMOVE node_modules/@img/sharp-libvips-linux-x64
+108 silly REMOVE node_modules/@img/sharp-libvips-linux-s390x
+109 silly REMOVE node_modules/@img/sharp-libvips-linux-ppc64
+110 silly REMOVE node_modules/@img/sharp-libvips-linux-arm64
+111 silly REMOVE node_modules/@img/sharp-libvips-linux-arm
+112 silly REMOVE node_modules/@img/sharp-libvips-darwin-x64
+113 silly REMOVE node_modules/@img/sharp-libvips-darwin-arm64
+114 silly REMOVE node_modules/@img/sharp-darwin-x64
+115 silly REMOVE node_modules/@img/sharp-darwin-arm64
+116 silly CHANGE node_modules/@hapi/hoek
+117 silly CHANGE node_modules/@hapi/boom
+118 silly REMOVE node_modules/@emnapi/runtime
+119 verbose cwd /data/data/com.termux/files/home
+120 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+121 verbose node v24.7.0
+122 verbose npm  v11.5.1
+123 verbose exit 0
+124 info ok

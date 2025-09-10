@@ -1,0 +1,234 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install qrcode-terminal
+7 verbose argv "install" "qrcode-terminal"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-09T17_57_14_255Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-09T17_57_14_255Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:828375040 maxSize:207093760 maxEntrySize:103546880
+12 silly idealTree buildDeps
+13 silly fetch manifest qrcode-terminal@*
+14 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 6102ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal set size:undefined disposed:false
+17 silly placeDep ROOT qrcode-terminal@0.12.0 OK for:  want: *
+18 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@emnapi/runtime' ]
+19 silly reify mark retired [
+19 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64'
+36 silly reify ]
+37 silly reify mark retired [ '/data/data/com.termux/files/home/node_modules/@img/sharp-wasm32' ]
+38 silly reify mark retired [
+38 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64'
+40 silly reify ]
+41 silly reify moves {
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@emnapi/runtime': '/data/data/com.termux/files/home/node_modules/@emnapi/.runtime-9v0NP49i',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-darwin-arm64-rWq0fpTA',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-darwin-x64-2XUsinp8',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-darwin-arm64-uFZansPD',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-darwin-x64-nwBDHdJ5',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-arm-TxLwqXy5',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-arm64-IkfLoGfo',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-ppc64-DwOKpobz',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-s390x-RY9ho3s0',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linux-x64-XKrJY0Sq',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linuxmusl-arm64-rpZdKVBg',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-libvips-linuxmusl-x64-9KWBAeNj',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-arm-eulPFvqL',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-arm64-wDwy8X2a',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-ppc64-afLy41vU',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-s390x-rMPlO7MN',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linux-x64-yfqUuT1W',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linuxmusl-arm64-Gq8Oet5B',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-linuxmusl-x64-CeF70V9D',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-wasm32': '/data/data/com.termux/files/home/node_modules/@img/.sharp-wasm32-sTSidBHU',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-arm64-E5cnarJI',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-ia32-GkUyWHMY',
+41 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64': '/data/data/com.termux/files/home/node_modules/@img/.sharp-win32-x64-hTangFep'
+41 silly reify }
+42 silly audit bulk request {
+42 silly audit   '@borewit/text-codec': [ '0.2.0', '0.1.1' ],
+42 silly audit   '@cacheable/node-cache': [ '1.7.0' ],
+42 silly audit   '@hapi/boom': [ '9.1.4' ],
+42 silly audit   '@hapi/hoek': [ '9.3.0' ],
+42 silly audit   '@keyv/serialize': [ '1.1.0' ],
+42 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+42 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+42 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+42 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+42 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+42 silly audit   '@protobufjs/float': [ '1.0.2' ],
+42 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+42 silly audit   '@protobufjs/path': [ '1.1.2' ],
+42 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+42 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+42 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+42 silly audit   '@tokenizer/token': [ '0.3.0' ],
+42 silly audit   '@types/long': [ '4.0.2' ],
+42 silly audit   '@types/node': [ '24.3.1', '10.17.60' ],
+42 silly audit   '@whiskeysockets/baileys': [ '7.0.0-rc.2' ],
+42 silly audit   'async-mutex': [ '0.5.0' ],
+42 silly audit   asynckit: [ '0.4.0' ],
+42 silly audit   'atomic-sleep': [ '1.0.0' ],
+42 silly audit   axios: [ '1.11.0' ],
+42 silly audit   cacheable: [ '1.10.4' ],
+42 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+42 silly audit   color: [ '4.2.3' ],
+42 silly audit   'color-convert': [ '2.0.1' ],
+42 silly audit   'color-name': [ '1.1.4' ],
+42 silly audit   'color-string': [ '1.9.1' ],
+42 silly audit   'combined-stream': [ '1.0.8' ],
+42 silly audit   'content-type': [ '1.0.5' ],
+42 silly audit   'curve25519-js': [ '0.0.4' ],
+42 silly audit   debug: [ '4.4.1' ],
+42 silly audit   'delayed-stream': [ '1.0.0' ],
+42 silly audit   'detect-libc': [ '2.0.4' ],
+42 silly audit   'dunder-proto': [ '1.0.1' ],
+42 silly audit   'es-define-property': [ '1.0.1' ],
+42 silly audit   'es-errors': [ '1.3.0' ],
+42 silly audit   'es-object-atoms': [ '1.1.1' ],
+42 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+42 silly audit   'fast-redact': [ '3.5.0' ],
+42 silly audit   fflate: [ '0.8.2' ],
+42 silly audit   'file-type': [ '21.0.0' ],
+42 silly audit   'follow-redirects': [ '1.15.11' ],
+42 silly audit   'form-data': [ '4.0.4' ],
+42 silly audit   'function-bind': [ '1.1.2' ],
+42 silly audit   'get-intrinsic': [ '1.3.0' ],
+42 silly audit   'get-proto': [ '1.0.1' ],
+42 silly audit   gopd: [ '1.2.0' ],
+42 silly audit   'has-symbols': [ '1.1.0' ],
+42 silly audit   'has-tostringtag': [ '1.0.2' ],
+42 silly audit   hasown: [ '2.0.2' ],
+42 silly audit   hookified: [ '1.12.0' ],
+42 silly audit   ieee754: [ '1.2.1' ],
+42 silly audit   'is-arrayish': [ '0.3.2' ],
+42 silly audit   keyv: [ '5.5.0' ],
+42 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+42 silly audit   long: [ '4.0.0', '5.3.2' ],
+42 silly audit   protobufjs: [ '6.8.8', '7.5.4' ],
+42 silly audit   'lru-cache': [ '11.2.1' ],
+42 silly audit   'math-intrinsics': [ '1.1.0' ],
+42 silly audit   'media-typer': [ '1.1.0' ],
+42 silly audit   'mime-db': [ '1.52.0' ],
+42 silly audit   'mime-types': [ '2.1.35' ],
+42 silly audit   ms: [ '2.1.3' ],
+42 silly audit   'music-metadata': [ '11.8.3' ],
+42 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+42 silly audit   pino: [ '9.9.4' ],
+42 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+42 silly audit   'pino-std-serializers': [ '7.0.0' ],
+42 silly audit   'process-warning': [ '5.0.0' ],
+42 silly audit   'proxy-from-env': [ '1.1.0' ],
+42 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+42 silly audit   'real-require': [ '0.2.0' ],
+42 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+42 silly audit   semver: [ '7.7.2' ],
+42 silly audit   sharp: [ '0.34.3' ],
+42 silly audit   'simple-swizzle': [ '0.2.2' ],
+42 silly audit   'sonic-boom': [ '4.2.0' ],
+42 silly audit   split2: [ '4.2.0' ],
+42 silly audit   strtok3: [ '10.3.4' ],
+42 silly audit   'thread-stream': [ '3.1.0' ],
+42 silly audit   'token-types': [ '6.1.1' ],
+42 silly audit   tslib: [ '2.8.1' ],
+42 silly audit   'uint8array-extras': [ '1.5.0' ],
+42 silly audit   'undici-types': [ '7.10.0' ],
+42 silly audit   ws: [ '8.18.3' ],
+42 silly audit   'qrcode-terminal': [ '0.12.0' ]
+42 silly audit }
+43 http cache qrcode-terminal@https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz 3ms (cache hit)
+44 silly tarball no local data for qrcode-terminal@https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz. Extracting by manifest.
+45 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 736ms
+46 silly audit report {}
+47 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz 4958ms (cache miss)
+48 silly ADD node_modules/qrcode-terminal
+49 silly REMOVE node_modules/@img/sharp-win32-x64
+50 silly REMOVE node_modules/@img/sharp-win32-ia32
+51 silly REMOVE node_modules/@img/sharp-win32-arm64
+52 silly REMOVE node_modules/@img/sharp-wasm32
+53 silly REMOVE node_modules/@img/sharp-linuxmusl-x64
+54 silly REMOVE node_modules/@img/sharp-linuxmusl-arm64
+55 silly REMOVE node_modules/@img/sharp-linux-x64
+56 silly REMOVE node_modules/@img/sharp-linux-s390x
+57 silly REMOVE node_modules/@img/sharp-linux-ppc64
+58 silly REMOVE node_modules/@img/sharp-linux-arm64
+59 silly REMOVE node_modules/@img/sharp-linux-arm
+60 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-x64
+61 silly REMOVE node_modules/@img/sharp-libvips-linuxmusl-arm64
+62 silly REMOVE node_modules/@img/sharp-libvips-linux-x64
+63 silly REMOVE node_modules/@img/sharp-libvips-linux-s390x
+64 silly REMOVE node_modules/@img/sharp-libvips-linux-ppc64
+65 silly REMOVE node_modules/@img/sharp-libvips-linux-arm64
+66 silly REMOVE node_modules/@img/sharp-libvips-linux-arm
+67 silly REMOVE node_modules/@img/sharp-libvips-darwin-x64
+68 silly REMOVE node_modules/@img/sharp-libvips-darwin-arm64
+69 silly REMOVE node_modules/@img/sharp-darwin-x64
+70 silly REMOVE node_modules/@img/sharp-darwin-arm64
+71 silly REMOVE node_modules/@emnapi/runtime
+72 verbose cwd /data/data/com.termux/files/home
+73 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+74 verbose node v24.7.0
+75 verbose npm  v11.5.1
+76 verbose exit 0
+77 info ok

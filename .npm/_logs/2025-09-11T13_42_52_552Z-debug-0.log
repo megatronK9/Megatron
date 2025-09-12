@@ -1,0 +1,104 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install wscat
+7 verbose argv "install" "--global" "wscat"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-11T13_42_52_552Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-11T13_42_52_552Z-debug-0.log
+10 silly packumentCache heap:752877568 maxSize:188219392 maxEntrySize:94109696
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest wscat@*
+15 silly packumentCache full:https://registry.npmjs.org/wscat cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/wscat 4802ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/wscat set size:undefined disposed:false
+18 silly placeDep ROOT wscat@6.1.0 OK for:  want: *
+19 silly fetch manifest commander@^12.1.0
+20 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+21 silly fetch manifest https-proxy-agent@^7.0.5
+22 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+23 silly fetch manifest read@^4.0.0
+24 silly packumentCache full:https://registry.npmjs.org/read cache-miss
+25 silly fetch manifest ws@^8.0.0
+26 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/commander 602ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+29 http fetch GET 200 https://registry.npmjs.org/read 2688ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/read set size:undefined disposed:false
+31 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 4231ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:undefined disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/ws 4282ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+35 silly fetch manifest bufferutil@^4.0.1
+36 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/bufferutil 388ms (cache revalidated)
+38 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+39 silly fetch manifest utf-8-validate@>=5.0.2
+40 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 420ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+43 silly placeDep node_modules/wscat commander@12.1.0 OK for: wscat@6.1.0 want: ^12.1.0
+44 silly placeDep node_modules/wscat https-proxy-agent@7.0.6 OK for: wscat@6.1.0 want: ^7.0.5
+45 silly placeDep node_modules/wscat read@4.1.0 OK for: wscat@6.1.0 want: ^4.0.0
+46 silly placeDep node_modules/wscat ws@8.18.3 OK for: wscat@6.1.0 want: ^8.0.0
+47 silly fetch manifest agent-base@^7.1.2
+48 silly packumentCache full:https://registry.npmjs.org/agent-base cache-miss
+49 silly fetch manifest debug@4
+50 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+51 silly fetch manifest mute-stream@^2.0.0
+52 silly packumentCache full:https://registry.npmjs.org/mute-stream cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/debug 495ms (cache revalidated)
+54 silly packumentCache full:https://registry.npmjs.org/debug set size:170512 disposed:false
+55 http fetch GET 200 https://registry.npmjs.org/agent-base 552ms (cache miss)
+56 silly packumentCache full:https://registry.npmjs.org/agent-base set size:undefined disposed:false
+57 http fetch GET 200 https://registry.npmjs.org/mute-stream 597ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/mute-stream set size:undefined disposed:false
+59 silly placeDep node_modules/wscat agent-base@7.1.4 OK for: https-proxy-agent@7.0.6 want: ^7.1.2
+60 silly placeDep node_modules/wscat debug@4.4.1 OK for: https-proxy-agent@7.0.6 want: 4
+61 silly fetch manifest ms@^2.1.3
+62 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/ms 369ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmjs.org/ms set size:92208 disposed:false
+65 silly placeDep node_modules/wscat ms@2.1.3 OK for: debug@4.4.1 want: ^2.1.3
+66 silly placeDep node_modules/wscat mute-stream@2.0.0 OK for: read@4.1.0 want: ^2.0.0
+67 silly reify moves {}
+68 http cache wscat@https://registry.npmjs.org/wscat/-/wscat-6.1.0.tgz 0ms (cache hit)
+69 http cache mute-stream@https://registry.npmjs.org/mute-stream/-/mute-stream-2.0.0.tgz 0ms (cache hit)
+70 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.1.tgz 1ms (cache hit)
+71 http cache agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz 0ms (cache hit)
+72 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 1ms (cache hit)
+73 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+74 http cache read@https://registry.npmjs.org/read/-/read-4.1.0.tgz 0ms (cache hit)
+75 http cache https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 1ms (cache hit)
+76 http cache commander@https://registry.npmjs.org/commander/-/commander-12.1.0.tgz 0ms (cache hit)
+77 silly tarball no local data for wscat@https://registry.npmjs.org/wscat/-/wscat-6.1.0.tgz. Extracting by manifest.
+78 silly tarball no local data for mute-stream@https://registry.npmjs.org/mute-stream/-/mute-stream-2.0.0.tgz. Extracting by manifest.
+79 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz. Extracting by manifest.
+80 silly tarball no local data for read@https://registry.npmjs.org/read/-/read-4.1.0.tgz. Extracting by manifest.
+81 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz. Extracting by manifest.
+82 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-12.1.0.tgz. Extracting by manifest.
+83 http fetch GET 200 https://registry.npmjs.org/mute-stream/-/mute-stream-2.0.0.tgz 643ms (cache miss)
+84 http fetch GET 200 https://registry.npmjs.org/wscat/-/wscat-6.1.0.tgz 667ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/read/-/read-4.1.0.tgz 681ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz 751ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz 4329ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-12.1.0.tgz 4396ms (cache miss)
+89 silly ADD node_modules/wscat
+90 silly ADD node_modules/wscat/node_modules/mute-stream
+91 silly ADD node_modules/wscat/node_modules/ms
+92 silly ADD node_modules/wscat/node_modules/debug
+93 silly ADD node_modules/wscat/node_modules/agent-base
+94 silly ADD node_modules/wscat/node_modules/ws
+95 silly ADD node_modules/wscat/node_modules/read
+96 silly ADD node_modules/wscat/node_modules/https-proxy-agent
+97 silly ADD node_modules/wscat/node_modules/commander
+98 verbose cwd /data/data/com.termux/files/home
+99 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+100 verbose node v22.19.0
+101 verbose npm  v10.9.3
+102 verbose exit 0
+103 info ok

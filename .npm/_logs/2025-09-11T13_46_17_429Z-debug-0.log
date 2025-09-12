@@ -1,0 +1,45 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install wscat
+7 verbose argv "install" "--global" "wscat"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-11T13_46_17_429Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-11T13_46_17_429Z-debug-0.log
+10 silly packumentCache heap:752877568 maxSize:188219392 maxEntrySize:94109696
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest wscat@*
+15 silly packumentCache full:https://registry.npmjs.org/wscat cache-miss
+16 http cache https://registry.npmjs.org/wscat 164ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/wscat set size:43993 disposed:false
+18 silly placeDep ROOT wscat@6.1.0 OK for:  want: *
+19 silly fetch manifest commander@^12.1.0
+20 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+21 silly fetch manifest https-proxy-agent@^7.0.5
+22 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent cache-miss
+23 silly fetch manifest read@^4.0.0
+24 silly packumentCache full:https://registry.npmjs.org/read cache-miss
+25 silly fetch manifest ws@^8.0.0
+26 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+27 http cache https://registry.npmjs.org/commander 98ms (cache hit)
+28 silly packumentCache full:https://registry.npmjs.org/commander set size:339973 disposed:false
+29 http cache https://registry.npmjs.org/read 128ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/read set size:35014 disposed:false
+31 http cache https://registry.npmjs.org/https-proxy-agent 150ms (cache hit)
+32 silly packumentCache full:https://registry.npmjs.org/https-proxy-agent set size:76222 disposed:false
+33 http cache https://registry.npmjs.org/ws 152ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+35 silly fetch manifest bufferutil@^4.0.1
+36 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+37 http cache https://registry.npmjs.org/bufferutil 56ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:51033 disposed:false
+39 silly fetch manifest utf-8-validate@>=5.0.2
+40 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+41 http cache https://registry.npmjs.org/utf-8-validate 27ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:75205 disposed:false
+43 silly placeDep node_modules/wscat commander@12.1.0 OK for: wscat@6.1.0 want: ^12.1.0
+44 silly placeDep node_modules/wscat https-proxy-agent@7.0.6 OK for: wscat@6.1.0 want: ^7.0.5

@@ -1,0 +1,19 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm list @whiskeysockets/baileys
+7 verbose argv "list" "@whiskeysockets/baileys"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-10T21_19_24_311Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-10T21_19_24_311Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:828375040 maxSize:207093760 maxEntrySize:103546880
+13 verbose cwd /data/data/com.termux/files/home
+14 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+15 verbose node v24.7.0
+16 verbose npm  v11.5.1
+17 verbose exit 0
+18 info ok

@@ -1,0 +1,254 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install qrcode-terminal
+7 verbose argv "install" "qrcode-terminal"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-11T12_03_15_150Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-11T12_03_15_150Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:752877568 maxSize:188219392 maxEntrySize:94109696
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest qrcode-terminal@^0.12.0
+15 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 3826ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/qrcode-terminal set size:29799 disposed:false
+18 silly placeDep ROOT qrcode-terminal@0.12.0 REPLACE for: home@1.0.0 want: ^0.12.0
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   '@borewit/text-codec': [ '0.2.0', '0.1.1' ],
+20 silly audit   '@cacheable/node-cache': [ '1.7.0' ],
+20 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+20 silly audit   '@hapi/boom': [ '10.0.1', '9.1.4' ],
+20 silly audit   '@hapi/hoek': [ '11.0.7', '9.3.0' ],
+20 silly audit   '@img/sharp-darwin-arm64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-darwin-x64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.0' ],
+20 silly audit   '@img/sharp-linux-arm': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linux-arm64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linux-ppc64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linux-s390x': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linux-x64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-wasm32': [ '0.34.3' ],
+20 silly audit   '@img/sharp-win32-arm64': [ '0.34.3' ],
+20 silly audit   '@img/sharp-win32-ia32': [ '0.34.3' ],
+20 silly audit   '@img/sharp-win32-x64': [ '0.34.3' ],
+20 silly audit   '@keyv/serialize': [ '1.1.1' ],
+20 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+20 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+20 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+20 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+20 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+20 silly audit   '@protobufjs/float': [ '1.0.2' ],
+20 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+20 silly audit   '@protobufjs/path': [ '1.1.2' ],
+20 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+20 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+20 silly audit   '@tokenizer/inflate': [ '0.2.7' ],
+20 silly audit   '@tokenizer/token': [ '0.3.0' ],
+20 silly audit   '@types/long': [ '4.0.2' ],
+20 silly audit   '@types/node': [ '24.3.1', '10.17.60' ],
+20 silly audit   '@whiskeysockets/baileys': [ '7.0.0-rc.2' ],
+20 silly audit   'async-mutex': [ '0.5.0' ],
+20 silly audit   asynckit: [ '0.4.0' ],
+20 silly audit   'atomic-sleep': [ '1.0.0' ],
+20 silly audit   axios: [ '1.11.0' ],
+20 silly audit   cacheable: [ '1.10.4' ],
+20 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+20 silly audit   color: [ '4.2.3' ],
+20 silly audit   'color-convert': [ '2.0.1' ],
+20 silly audit   'color-name': [ '1.1.4' ],
+20 silly audit   'color-string': [ '1.9.1' ],
+20 silly audit   'combined-stream': [ '1.0.8' ],
+20 silly audit   'content-type': [ '1.0.5' ],
+20 silly audit   'curve25519-js': [ '0.0.4' ],
+20 silly audit   debug: [ '4.4.1' ],
+20 silly audit   'delayed-stream': [ '1.0.0' ],
+20 silly audit   'detect-libc': [ '2.0.4' ],
+20 silly audit   'dunder-proto': [ '1.0.1' ],
+20 silly audit   'es-define-property': [ '1.0.1' ],
+20 silly audit   'es-errors': [ '1.3.0' ],
+20 silly audit   'es-object-atoms': [ '1.1.1' ],
+20 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+20 silly audit   'fast-redact': [ '3.5.0' ],
+20 silly audit   fflate: [ '0.8.2' ],
+20 silly audit   'file-type': [ '21.0.0' ],
+20 silly audit   'follow-redirects': [ '1.15.11' ],
+20 silly audit   'form-data': [ '4.0.4' ],
+20 silly audit   'function-bind': [ '1.1.2' ],
+20 silly audit   'get-intrinsic': [ '1.3.0' ],
+20 silly audit   'get-proto': [ '1.0.1' ],
+20 silly audit   gopd: [ '1.2.0' ],
+20 silly audit   'has-symbols': [ '1.1.0' ],
+20 silly audit   'has-tostringtag': [ '1.0.2' ],
+20 silly audit   hasown: [ '2.0.2' ],
+20 silly audit   hookified: [ '1.12.0' ],
+20 silly audit   ieee754: [ '1.2.1' ],
+20 silly audit   'is-arrayish': [ '0.3.2' ],
+20 silly audit   keyv: [ '5.5.1' ],
+20 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+20 silly audit   long: [ '4.0.0', '5.3.2' ],
+20 silly audit   protobufjs: [ '6.8.8', '7.5.4' ],
+20 silly audit   'lru-cache': [ '11.2.1' ],
+20 silly audit   'math-intrinsics': [ '1.1.0' ],
+20 silly audit   'media-typer': [ '1.1.0' ],
+20 silly audit   'mime-db': [ '1.52.0' ],
+20 silly audit   'mime-types': [ '2.1.35' ],
+20 silly audit   ms: [ '2.1.3' ],
+20 silly audit   'music-metadata': [ '11.8.3' ],
+20 silly audit   'on-exit-leak-free': [ '2.1.2' ],
+20 silly audit   pino: [ '9.9.5' ],
+20 silly audit   'pino-abstract-transport': [ '2.0.0' ],
+20 silly audit   'pino-std-serializers': [ '7.0.0' ],
+20 silly audit   'process-warning': [ '5.0.0' ],
+20 silly audit   'proxy-from-env': [ '1.1.0' ],
+20 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+20 silly audit   'real-require': [ '0.2.0' ],
+20 silly audit   'safe-stable-stringify': [ '2.5.0' ],
+20 silly audit   semver: [ '7.7.2' ],
+20 silly audit   sharp: [ '0.34.3' ],
+20 silly audit   'simple-swizzle': [ '0.2.2' ],
+20 silly audit   'sonic-boom': [ '4.2.0' ],
+20 silly audit   split2: [ '4.2.0' ],
+20 silly audit   strtok3: [ '10.3.4' ],
+20 silly audit   'thread-stream': [ '3.1.0' ],
+20 silly audit   'token-types': [ '6.1.1' ],
+20 silly audit   tslib: [ '2.8.1' ],
+20 silly audit   'uint8array-extras': [ '1.5.0' ],
+20 silly audit   'undici-types': [ '7.10.0' ],
+20 silly audit   ws: [ '8.18.3' ],
+20 silly audit   'qrcode-terminal': [ '0.12.0' ]
+20 silly audit }
+21 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64
+22 silly reify mark deleted [
+22 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-x64'
+22 silly reify ]
+23 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32
+24 silly reify mark deleted [
+24 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-ia32'
+24 silly reify ]
+25 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64
+26 silly reify mark deleted [
+26 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-win32-arm64'
+26 silly reify ]
+27 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-wasm32
+28 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@img/sharp-wasm32' ]
+29 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@emnapi/runtime
+30 silly reify mark deleted [ '/data/data/com.termux/files/home/node_modules/@emnapi/runtime' ]
+31 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64
+32 silly reify mark deleted [
+32 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-x64'
+32 silly reify ]
+33 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64
+34 silly reify mark deleted [
+34 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linuxmusl-arm64'
+34 silly reify ]
+35 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64
+36 silly reify mark deleted [
+36 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-x64'
+36 silly reify ]
+37 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x
+38 silly reify mark deleted [
+38 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-s390x'
+38 silly reify ]
+39 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64
+40 silly reify mark deleted [
+40 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-ppc64'
+40 silly reify ]
+41 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64
+42 silly reify mark deleted [
+42 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm64'
+42 silly reify ]
+43 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm
+44 silly reify mark deleted [
+44 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-linux-arm'
+44 silly reify ]
+45 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64
+46 silly reify mark deleted [
+46 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-x64'
+46 silly reify ]
+47 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64
+48 silly reify mark deleted [
+48 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+48 silly reify ]
+49 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64
+50 silly reify mark deleted [
+50 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-x64'
+50 silly reify ]
+51 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x
+52 silly reify mark deleted [
+52 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-s390x'
+52 silly reify ]
+53 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64
+54 silly reify mark deleted [
+54 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-ppc64'
+54 silly reify ]
+55 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64
+56 silly reify mark deleted [
+56 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm64'
+56 silly reify ]
+57 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm
+58 silly reify mark deleted [
+58 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-linux-arm'
+58 silly reify ]
+59 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64
+60 silly reify mark deleted [
+60 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-x64'
+60 silly reify ]
+61 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64
+62 silly reify mark deleted [
+62 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-libvips-darwin-arm64'
+62 silly reify ]
+63 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64
+64 silly reify mark deleted [
+64 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-x64'
+64 silly reify ]
+65 verbose reify failed optional dependency /data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64
+66 silly reify mark deleted [
+66 silly reify   '/data/data/com.termux/files/home/node_modules/@img/sharp-darwin-arm64'
+66 silly reify ]
+67 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.5.0.tgz 1ms (cache hit)
+68 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 940ms
+69 silly audit report {}
+70 silly ADD
+71 silly ADD
+72 silly ADD
+73 silly ADD
+74 silly ADD
+75 silly ADD
+76 silly ADD
+77 silly ADD
+78 silly ADD
+79 silly ADD
+80 silly ADD
+81 silly ADD
+82 silly ADD
+83 silly ADD
+84 silly ADD
+85 silly ADD
+86 silly ADD
+87 silly ADD
+88 silly ADD
+89 silly ADD
+90 silly ADD
+91 silly ADD
+92 silly ADD
+93 verbose cwd /data/data/com.termux/files/home
+94 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+95 verbose node v22.19.0
+96 verbose npm  v10.9.3
+97 verbose exit 0
+98 info ok

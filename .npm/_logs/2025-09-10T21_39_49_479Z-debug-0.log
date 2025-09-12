@@ -1,0 +1,43 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.5.1
+2 info using node@v24.7.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm init
+7 verbose argv "init" "--yes"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-09-10T21_39_49_479Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-09-10T21_39_49_479Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly package data {
+12 silly package data   dependencies: {
+12 silly package data     '@hapi/boom': '^10.0.1',
+12 silly package data     '@whiskeysockets/baileys': '^7.0.0-rc.2',
+12 silly package data     'qrcode-terminal': '^0.12.0'
+12 silly package data   },
+12 silly package data   name: 'home',
+12 silly package data   version: '1.0.0',
+12 silly package data   description: '',
+12 silly package data   main: 'megatron.js',
+12 silly package data   devDependencies: {},
+12 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+12 silly package data   repository: {
+12 silly package data     type: 'git',
+12 silly package data     url: 'git+https://github.com/megatronK9/Megatron.git'
+12 silly package data   },
+12 silly package data   keywords: [],
+12 silly package data   author: '',
+12 silly package data   license: 'ISC',
+12 silly package data   type: 'commonjs',
+12 silly package data   bugs: { url: 'https://github.com/megatronK9/Megatron/issues' },
+12 silly package data   homepage: 'https://github.com/megatronK9/Megatron#readme',
+12 silly package data   Symbol(newline): '\n',
+12 silly package data   Symbol(indent): '  '
+12 silly package data }
+13 verbose cwd /data/data/com.termux/files/home
+14 verbose os Linux 4.19.191-25991128-abA042FXXS6CWL1
+15 verbose node v24.7.0
+16 verbose npm  v11.5.1
+17 verbose exit 0
+18 info ok

@@ -1,2 +1,22 @@
 .git-credentials
 .git-credentials
+
+# Ignore dependencies
+node_modules/
+
+# Ignore WhatsApp session & backups
+auth_info/
+overlord_backups/
+
+# Ignore secrets
+.env
+
+# Ignore local archives & temp files
+*.tar
+*.gz
+*.zip
+memory.json
+
+# Ignore OS / editor junk
+.DS_Store
+Thumbs.db

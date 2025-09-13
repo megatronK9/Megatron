@@ -1,4 +1,4 @@
-.git-credentials
+# Ignore Git credentials
 .git-credentials
 
 # Ignore dependencies
